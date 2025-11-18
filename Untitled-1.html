@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rohan Dabhi - Contact Section</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #dce7ff; /* Light Blue */
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+
+    /* Container Animation */
+    .contact-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.25);
+        animation: fadeSlide 1.2s ease-out;
+    }
+
+    @keyframes fadeSlide {
+        0% { opacity: 0; transform: translateY(50px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+
+    h1, h2 {
+        color: #0d1b4c; /* Dark Blue */
+        border-left: 4px solid #0d1b4c;
+        padding-left: 10px;
+    }
+
+    p, li {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Flex Layout */
+    .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .flex-column {
+        flex: 1;
+        min-width: 300px;
+        background: #eef3ff;
+        padding: 15px;
+        border-radius: 8px;
+        border-left: 4px solid #0d1b4c;
+    }
+
+    /* Table Styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        animation: fadeSlide 1.3s ease-out;
+    }
+
+    th {
+        background: #0d1b4c;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    td {
+        background: #f4f7ff;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #0d1b4c;
+    }
+
+    /* Link Styling */
+    a {
+        color: #0d1b4c;
+        text-decoration: none;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="contact-container">
+
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out for collaborations, projects, or opportunities!</p>
+    <hr>
+
+    <!-- About Myself -->
+    <h2>👤 About Myself</h2>
+    <p>
+        Hi, I’m <strong>Rohan Dabhi</strong>, an enthusiastic developer currently studying at 
+        <strong>Noble</strong>. I completed my high school at <strong>Success School</strong>.
+        I enjoy learning new technologies and building creative projects.
+    </p>
+
+    <!-- Education Table -->
+    <h2>🎓 Education Details</h2>
+    <table>
+        <tr>
+            <th>Level</th>
+            <th>Institute</th>
+        </tr>
+        <tr>
+            <td>High School</td>
+            <td>Success School</td>
+        </tr>
+        <tr>
+            <td>Graduation</td>
+            <td>Noble (Currently Pursuing)</td>
+        </tr>
+    </table>
+
+    <!-- Flex Section: Skills + Subjects -->
+    <h2>📘 Subjects & Skills</h2>
+
+    <div class="flex-box">
+        <div class="flex-column">
+            <h3 style="color:#0d1b4c;">Subjects Learned</h3>
+            <ul>
+                <li>Web Designing</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>AI Tools</li>
+                <li>IKS</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>DBMS</li>
+            </ul>
+        </div>
+
+        <div class="flex-column">
+            <h3 style="color:#0d1b4c;">Developer Skills</h3>
+            <ul>
+                <li>Web Designing</li>
+                <li>C, C++, Python</li>
+                <li>SQL & DBMS</li>
+                <li>AI Tools</li>
+                <li>Problem Solving</li>
+                <li>Creative Development</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Flex Section: Hobbies -->
+    <h2>🎮 Hobbies & Interests</h2>
+
+    <div class="flex-box">
+        <div class="flex-column">
+            <h3 style="color:#0d1b4c;">Gaming</h3>
+            <p>I enjoy gaming because it keeps me creative, focused, and refreshed.</p>
+        </div>
+
+        <div class="flex-column">
+            <h3 style="color:#0d1b4c;">Career Goal</h3>
+            <p>I aim to become a skilled developer and build impactful digital products using modern technologies.</p>
+        </div>
+
+        <div class="flex-column">
+            <h3 style="color:#0d1b4c;">Cricket</h3>
+            <p>Cricket keeps me active and improves my teamwork skills.</p>
+        </div>
+
+        <div class="flex-column">
+            <h3 style="color:#0d1b4c;">Kabaddi</h3>
+            <p>Kabaddi keeps me fit, strong, and energetic.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Contact Table -->
+    <h2>📬 Contact Information</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>rohan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>+91 9345653452</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>panchapipla gujrat</td>
+        </tr>
+    </table>
+
+    <!-- Social Links -->
+    <h2>🔗 Social Links</h2>
+    <div class="flex-box">
+        <div class="flex-column">
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="flex-column">
+            <a href="#">GitHub</a>
+        </div>
+        <div class="flex-column">
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
